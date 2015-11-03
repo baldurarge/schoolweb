@@ -1,0 +1,64 @@
+<div class="col-lg-12">
+<div class="col-lg-3"><a href="index.html#/"><h1>Home</h1></a></div>
+	<div class="col-lg-6 text-center">
+		<h1>{{::braut.nafn}}</h1>
+		<h4>Einingar: {{einingarHeild}}/{{einingarTilUtskriftar}}</h4>
+	</div>
+	<div class="col-lg-2">
+		<label ng-click="myFilter = 2"><h4>Value 1 |</h4></label>
+		<label ng-click="myFilter = null"><h4>Allir áfangar |</h4></label>
+	</div>
+</div>
+<div class="col-lg-12 mainDiv">
+	<div class="col-lg-12 col-sm-4" ng-repeat="(key, tegund) in afangar">
+		<h3>{{getName(key)}}</h3>
+		<div class="col-lg-1" id="{{group}}" ng-repeat="group in groups" ng-if="checkIfInGroup(tegund,group)">
+			<label class="aAfangi col-lg-12"  ng-repeat="afangi in tegund" ng-if="afangi.info.group == group && checkeiningar(afangi) && checkFilter(afangi)" ng-style="afangiStyle(afangi)" ng-click="afangiClickedOnce(afangi)">
+				{{afangi.name}}
+			</label>
+		</div>
+	</div>
+</div>
+<div class="col-lg-12 below">
+	<div class="col-lg-10 theTable">
+		<div class="col-lg-12">
+			<div class="col-lg-1"><h4>Semester</h4></div>
+			<div class="col-lg-7"><h4> Main</h4></div>
+			<div class="col-lg-3"><h4> Second</h4></div>
+			<div class="col-lg-1"><h4>Einingar</h4></div>
+		</div>
+		<div class="col-lg-12" ng-repeat="val in afangaVal">
+			<div class="col-lg-1">
+				{{val.name}}
+			</div>
+			<div class="col-lg-7">
+				<div class="col-lg-2 col-sm-3 pull-left" ng-repeat="afangi in val.data.main" ng-style="tableAfangiStyle(afangi)" ng-if="val.data.main.length > 0">{{afangi.name}}</div>
+				<div class="col-lg-2 col-sm-3 pull-left afangiInTable" ng-repeat="afangi in selectedAfangarFinal.main" ng-if="val.data<=0" ng-style="tableAfangiStyle(afangi)" ng-click="afangiInTableClicked(afangi)">{{afangi.name}}</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="col-lg-4 col-sm-12 pull-left" ng-repeat="afangi in val.data.second" ng-if="val.data.second.length > 0" ng-style="tableAfangiStyle(afangi)">{{afangi.name}}</div>
+				<div class="col-lg-4 col-sm-12 pull-left afangiInTable" ng-repeat="afangi in selectedAfangarFinal.second" ng-if="val.data<=0" ng-style="tableAfangiStyle(afangi)" ng-click="afangiInTableClicked(afangi)">{{afangi.name}}</div>
+			</div>
+			<div class="col-lg-1">
+				0
+			</div>
+			<hr class="col-lg-12 hrClass">
+		</div>
+
+	</div>
+
+	<div class="col-lg-2">
+		<label class="save col-lg-12" ng-click="vistaAfanga()" ng-show="selectedAfangarFinal.main.length > 4">Save current Selection<hr></label>
+		<label class="delete col-lg-12" ng-if="afangaVal.length > 1">Delete Last Semester<hr></label>
+		<label class="remove col-lg-12" ng-click="removeAfangar()" ng-show="selectedAfangarFinal.main.length">Remove Selected<hr></label>
+		<label class="move col-lg-12" ng-click="moveAfangar()">Move selected<hr></label>
+	</div>
+	<div id="scrollArea" class="col-lg-2">
+	</div>
+
+
+
+</div>
+
+
+

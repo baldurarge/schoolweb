@@ -1,0 +1,152 @@
+{"result":{
+    "brautir":[
+    {"nafn":"tbr10",
+    "almennirAfangar":[6,3,2,5,7,1,2,3,5,6],
+    "faggreinar":[11,22,33,44,55,66,77,88],
+    "almennirAfangarTilStudents":[12,13,14,15,16,17],
+    "faggreinarIFramhalds":[21,23,24,5,26,26,27],
+    "EiningarTilUtskriftar":149
+    },
+    {"nafn":"tbr13","holls":[
+    {"name":"Almennir áfangar", "almennirAfangar":[332,94,95,11,12,34,35,36,22,23,16,17,1,2,96,97,13,14,15,38,39,40,100,101]},
+    {"name":"Faggreinar", "faggreinar":[49,50,52,79,78,80,67,66,65,73,74,64,62]},
+    {"name":"Faggreinar í framhaldi", "faggreinarIFramhalds":[51,53,57,58,63,68,76,77,81,82,54,55,56,71,72,48,59,60,61,83,84,85,69,70]}
+    ],
+    "special":{
+        "GRU2TB04AUT":["VSH2TB02BUT","FOR2TB02CUT","GSÖ2UT02BUT","CNA2TB03AUT"],
+        "CNA2TB03AUT":["TÆK2TB02BUT"],
+        "CNA3TB03BUT":["GRU2TB04AUT"],
+        "HFO2TB03AUT":["GRU2TB04AUT"],
+        "GSF2TB03AUT":["GRU2TB04AUT"],
+        "LIN2TB03AUT":["GRU2TB04AUT"],
+        "ROB2TB03AUT":["GRU2TB04AUT"],
+        "VEF2TB03AUT":["GRU2TB04AUT"],
+        "VIÐ2TB03AUT":["GRU2TB04AUT"],
+        "WIN2TB03AUT":["GRU2TB04AUT"],
+        "LFO3TB03AUT":["HFO2TB03AUT"],
+        "RFO3TB03AUT":["HFO2TB03AUT"],
+        "FOR3TB03AUT":["LFO3TB03AUT"]
+    },
+    "EiningarTilUtskriftar":138
+	}
+    		],
+
+        "afangar":[
+        
+        {"ID": 1,"name":"DAN2BM03ATS"},
+        {"ID": 2,"name":"DAN2UB03BTS"},
+        {"ID": 3,"name":"DAN1LM03XTS"},
+        {"ID": 4,"name":"DAN3ST03CTS"},
+        {"ID": 5,"name":"EÐL2GR03BTS"},
+        {"ID": 6,"name":"EÐL2RB03CTS"},
+        {"ID": 7,"name":"EÐL3AK03CTS"},
+        {"ID": 8,"name":"EÐL3AV03CTH"},
+        {"ID": 9,"name":"EFN2AE03BTS"},
+        {"ID": 90,"name":"EFN2LR03CTS"},
+        {"ID": 91,"name":"EFN3JA03CTS"},
+        {"ID": 92,"name":"EFN3RA03CTS"},
+        {"ID": 93,"name":"ENS1LS03XTS"},
+        {"ID": 94,"name":"ENS2LM03ATS"},
+        {"ID": 95,"name":"ENS2OF03BTS"},
+        {"ID": 96,"name":"ENS3AM03CTS"},
+        {"ID": 97,"name":"ENS3UK03DTS"},
+        {"ID": 98,"name":"ENS3HR03ETS"},
+        {"ID": 99,"name":"FÉL2BY03ATS"},
+        {"ID": 10,"name":"ÍSL1LT03XTS"},
+        {"ID": 11,"name":"ÍSL2AA03ATS"},
+        {"ID": 12,"name":"ÍSL2GO03BTS"},
+        {"ID": 13,"name":"ÍSL3BF03CTS"},
+        {"ID": 14,"name":"ÍSL3LF03CTS"},
+        {"ID": 15,"name":"ÍSL3NB03CTS"},
+        {"ID": 16,"name":"ÍÞR1GH01ATS"},
+        {"ID": 17,"name":"ÍÞR1LA01BTS"},
+        {"ID": 18,"name":"JAR1AJ03ATS"},
+        {"ID": 19,"name":"JAR2KJ03BTS"},
+        {"ID": 20,"name":"LÍF1GR03ATS"},
+        {"ID": 21,"name":"LÍF2LE03BTS"},
+        {"ID": 22,"name":"LKN1GR03ATS"},
+        {"ID": 23,"name":"MLÆ1AL03ATS"},  
+        {"ID": 24,"name":"NÁL1AN03ATS"}, 
+        {"ID": 25,"name":"NÁS1NT03ATS"},
+        {"ID": 26,"name":"NÁT1EE03ATS"},
+        {"ID": 27,"name":"SAG2ÍM03ATS"},
+        {"ID": 28,"name":"SAG2NS03BTS"},
+        {"ID": 29,"name":"SPÆ1AG03ATS"},
+        {"ID": 30,"name":"SPÆ1BF03BTS"},
+        {"ID": 31,"name":"SPÆ1OM03CTS"},
+        {"ID": 332,"name":"STÆ1SF00ATS"},
+        {"ID": 32,"name":"STÆ1SF03XTS"},
+        {"ID": 33,"name":"STÆ1BB03ATS"},
+        {"ID": 34,"name":"STÆ2BR03BTS"},
+        {"ID": 35,"name":"STÆ2AH03CTS"},
+        {"ID": 36,"name":"STÆ2LT03CTS"},
+        {"ID": 37,"name":"STÆ2PV03CTS"},
+        {"ID": 38,"name":"STÆ3RV03DTS"},
+        {"ID": 39,"name":"STÆ3FM03ETS"},
+        {"ID": 40,"name":"STÆ3FV03FTS"},
+        {"ID": 41,"name":"STÆ4HT03GTS"},
+        {"ID": 42,"name":"STÆ4ÞV03HTS"},
+        {"ID": 43,"name":"UPT1UT03ATS"},
+        {"ID": 44,"name":"UPT2TT03BTS"},  
+        {"ID": 45,"name":"ÞÝS1ÞB03ATS"},
+        {"ID": 46,"name":"ÞÝS1ÞE03BTS"},
+        {"ID": 47,"name":"ÞÝS1ÞD03CTS"},
+            {"ID": 100,"name":"FÉL2BY03AT"},
+            {"ID": 101,"name":"SAG2ÍM03AT"},
+
+            {"ID": 62,"name": "GRU2TB04AUT", "theNameNow":"GRU2L4U"},
+
+            {"ID": 64,"name": "CNA2TB03AUT", "theNameNow":"CNA2A3U"},
+            {"ID": 71,"name": "CNA3TB03BUT", "theNameNow":"CNA3A3U"},
+            {"ID": 72,"name": "CNA3TB03CUT", "theNameNow":"CNA3B3U"},
+            {"ID": 48,"name": "CNA3TB03DUT", "theNameNow":"CNA3C3U"},
+
+            {"ID": 49,"name": "FOR1TB03AUT", "theNameNow":"FOR1A3U"},
+            {"ID": 50,"name": "FOR1TB03BUT", "theNameNow":"FOR1B3U"},
+            {"ID": 52,"name": "FOR2TB02CUT", "theNameNow":"FOR2B2U"},
+
+            {"ID": 51,"name": "HFO2TB03AUT", "theNameNow":"FOR2C3U"},
+            {"ID": 57,"name": "LFO3TB03AUT", "theNameNow":"FOR3G3U"},
+            {"ID": 63,"name": "HFO3TB03BUT", "theNameNow":"FOR3A3U"},
+            {"ID": 68,"name": "RFO3TB03AUT", "theNameNow":"FOR3R3U"},
+            {"ID": 58,"name": "LFO3TB03BUT", "theNameNow":"FOR3D3U"},
+            {"ID": 53,"name": "FOR3TB03AUT", "theNameNow":"FOR3S3U"},
+
+            {"ID": 67,"name": "GSÖ1TB02AUT", "theNameNow":"GSÖ1G2U"},
+            {"ID": 66,"name": "GSÖ1TB02BUT", "theNameNow":"GSÖ1F2U"},
+            {"ID": 65,"name": "GSÖ2UT02CUT", "theNameNow":"GSÖ2B2U"},
+
+        {"ID": 54,"name": "GSF2TB03AUT", "theNameNow":"GSF2A3U"},
+        {"ID": 55,"name": "GSF2TB03BUT", "theNameNow":"GSF2B3U"},
+        {"ID": 56,"name": "GSF3TB03CUT", "theNameNow":"GSF3A3U"},
+
+        {"ID": 59,"name": "LIN2TB03AUT", "theNameNow":"LIN2A3U"},
+        {"ID": 60,"name": "LIN3TB03BUT", "theNameNow":"LIN3A3U"},
+        {"ID": 61,"name": "LIN3TB03CUT", "theNameNow":"LIN3B3U"},
+
+
+
+        {"ID": 69,"name": "ROB2TB03AUT", "theNameNow":"ROB2A3U"},
+        {"ID": 70,"name": "ROB2TB03BUT", "theNameNow":"ROB2B3U"},
+
+        {"ID": 73,"name": "TÆK1TB01AUT", "theNameNow":"TÆK1A1U"},
+        {"ID": 74,"name": "TÆK2TB02BUT", "theNameNow":"TÆK2B2U"},
+        {"ID": 75,"name": "TÆK2TB03CUT", "theNameNow":"TÆK2A3U"},
+
+        {"ID": 76,"name": "VEF2TB03AUT", "theNameNow":"VEF2A3U"},
+        {"ID": 77,"name": "VEF3TB03BUT", "theNameNow":"VEF3A3U"},
+        {"ID": 81,"name": "VIÐ2TB03AUT", "theNameNow":"VEF2B3U"},
+        {"ID": 82,"name": "VIÐ3TB03BUT", "theNameNow":"VEF3B3U"},
+
+        {"ID": 78,"name": "VSH2TB03BUT", "theNameNow":"VSH2A3U"},
+        {"ID": 79,"name": "VSH1TB03AUT", "theNameNow":"VSH1A3U"},
+        {"ID": 80,"name": "VSH2TB02CUT", "theNameNow":"VSH2B2U"},
+
+        {"ID": 83,"name": "WIN2TB03AUT", "theNameNow":"WIN2A3U"},
+        {"ID": 84,"name": "WIN3TB03BUT", "theNameNow":"WIN3A3U"},
+        {"ID": 85,"name": "WIN3TB03CUT", "theNameNow":"WIN3B3U"}
+
+
+        ]
+    }
+}

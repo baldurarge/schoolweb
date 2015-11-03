@@ -1,0 +1,6 @@
+<div class="container">
+	<input style="color:black;" type="text" ng-model="idSearch">
+	<div ng-repeat="afangi in afangar | filter:idSearch">
+		{{afangi.name}}--- {{afangi.ID}}
+	</div>
+</div>
