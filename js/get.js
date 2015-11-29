@@ -25,10 +25,10 @@
 		};
 
 		var getBrautir = function(){
-			return $http.get('js/json/data.json')
-				.then(function(response){
+			return $http.get('js/json/data.json').then(function(response){
 					return response.data.result.brautir;
 				});
+
 		};
 
 
